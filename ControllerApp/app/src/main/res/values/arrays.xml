@@ -1,0 +1,12 @@
+<resources>
+    <!-- URL Preference -->
+    <string-array name="URL_Tittle">
+        <item>Cluster 1</item>
+        <item>Cluster 2</item>
+    </string-array>
+
+    <string-array name="URL_value">
+        <item>f8a667c650f64b02b7100b463f15dacd.s2.eu.hivemq.cloud:8883</item>
+        <item>ssl://047a9efebd2e4e3fa2c2c89bafd7241e.s1.eu.hivemq.cloud:8883</item>
+    </string-array>
+</resources>

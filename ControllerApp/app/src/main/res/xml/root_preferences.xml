@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:icon="@drawable/baseline_camera_alt_24"
+        app:title="@string/messages_header">
+        <EditTextPreference
+            app:key="CameraIP"
+            app:summary="@string/Camera_address_summary"
+            app:title="@string/Camera_address"
+            app:useSimpleSummaryProvider="false" />
+
+        <ListPreference
+            app:defaultValue="ssl://f8a667c650f64b02b7100b463f15dacd.s2.eu.hivemq.cloud:8883"
+            app:entries="@array/URL_Tittle"
+            app:entryValues="@array/URL_value"
+            app:key="URL"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="mqtt_username"
+            app:title="@string/mqtt_username_title"
+            app:summary="@string/mqtt_username_summary"
+            app:useSimpleSummaryProvider="false" />
+
+        <EditTextPreference
+            app:key="mqtt_password"
+            app:title="@string/mqtt_password_title"
+            app:summary="@string/mqtt_password_summary"
+            app:useSimpleSummaryProvider="false" />
+
+        <SwitchPreferenceCompat
+            app:key="collisionAlert"
+            app:summary="@string/collision_alert_summary"
+            app:title="@string/collision_alert_title"
+            app:defaultValue="false"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:icon="@drawable/baseline_gamepad_24"
+        app:title="@string/controller_setting"/>
+
+        <SwitchPreferenceCompat
+            app:key="controller"
+            app:summary="@string/controller_summary_on"
+            app:title="@string/controller_title"
+            app:defaultValue="false"
+            android:disableDependentsState="true"/>
+
+        <SeekBarPreference
+            app:key="deadzone_angle"
+            app:title="@string/deadzone_angle_title"
+            app:summary="@string/deadzone_angle_summary"
+            app:showSeekBarValue="true"
+            app:defaultValue="15"
+            app:min="0"
+            android:max="25"
+            android:dependency="controller"/>
+
+        <SeekBarPreference
+            app:key="deadzone_radius"
+            app:title="@string/deadzone_radius_title"
+            app:summary="@string/deadzone_radius_summary"
+            app:showSeekBarValue="true"
+            app:defaultValue="15"
+            app:min="0"
+            android:max="30"
+            android:dependency="controller"/>
+
+</PreferenceScreen>

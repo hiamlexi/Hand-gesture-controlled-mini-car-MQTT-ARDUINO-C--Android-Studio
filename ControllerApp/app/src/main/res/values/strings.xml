@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Scout</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Setting </string>
+
+    <!-- Camera Titles -->
+    <string name="Camera_address">Camera IP</string>
+    <string name="Camera_address_summary">Input the IP for camera. Leave blank to allow for auto discovery when devices are on a shared local network</string>
+
+    <!-- Cluster message -->
+    <string name="reply_title">Choose your cluster to connect</string>
+
+    <string name="mqtt_username_title">MQTT username</string>
+    <string name="mqtt_username_summary">Set username to blank to not use any credentials</string>
+
+    <string name="mqtt_password_title">MQTT password</string>
+    <string name="mqtt_password_summary">Set password to blank to not use any credentials</string>
+
+    <string name="title_activity_settings">Settings Activity</string>
+    <string name="controller_setting">Controller Setting</string>
+
+    <string name="collision_alert_title">Turn on bigger alerts</string>
+    <string name="collision_alert_summary">Tap again to have get popups</string>
+
+    <!-- Controller message -->
+    <string name="controller_title">Hide the controller</string>
+    <string name="controller_summary_on">Tap again to show the controller</string>
+
+    <string name="deadzone_angle_title">Angular dead zone</string>
+    <string name="deadzone_angle_summary">Set the degree of the angular dead zones around each axis for the joystick controller</string>
+
+    <string name="deadzone_radius_title">Center dead zone</string>
+    <string name="deadzone_radius_summary">Set the scale of the dead zone in the center of the joystick, in percentage points</string>
+</resources>
