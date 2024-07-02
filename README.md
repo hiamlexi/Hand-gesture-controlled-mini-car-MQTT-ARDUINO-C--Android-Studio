@@ -1,6 +1,4 @@
-# Group7Main
-
-Hand-gesture controlled mini-car
+# Hand-gesture controlled mini-car
 -------------------------
 
 This is the repo for Group 7s Project, where we will make a car that is controlled using a hand-held device which recognizes hand gestures. This car aims to have a more seamless control system than a standard remote. Additionally, it will allow for full control over the car using only one hand. However, the option for a phone to act as a remote control is also available. Unfortunately, the hand-held device has been left out-of-scope and is not part of the final system, but remains mostly developed.
@@ -15,7 +13,7 @@ This is the repo for Group 7s Project, where we will make a car that is controll
 
 The link to the video demo is [here](https://www.youtube.com/watch?v=LsxHzzjNhcY&ab_channel=Team7).
 
-Other videos of the car's progression and testing can be found in [Car Progression](https://git.chalmers.se/courses/dit113/2023/group-7/group7main/-/wikis/Physical%20car%20Progression).
+# Other videos of the car's progression and testing can be found in [HERE](https://drive.google.com/drive/folders/1_2FeddrrEDnh4p-JbIEDVTgufPtViy9P?usp=sharing) 
 
 ## Controls
 
@@ -57,28 +55,8 @@ The components present are:
 - red LED
 - 1 220 Ohm resistor
 
-Firstly, if you don't understand how breadboards work, you can educate yourself [here](https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard) or on another breadbord educational website on the internet. 
-
 It is important to note the motors and the functionality of the [l298N](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/) driver modules. The driver modules are important to have a more advanced control over the motors, which is critical to achieve proper steering. Another note is that the servo and the ultrasonic ranger both wire to the arduino in a similar way. The color code of the wires is this: black is ground, pink is direction, green is speed, and red is power for the motor drivers.
 
-## Requirements
-
-The requirements below display what functions the system must achieve such that the project will be successful and complete. 
-
-[Requirements link](https://gunet-my.sharepoint.com/:w:/g/personal/gusbenuta_student_gu_se/ERGmpU-bYYhDkG-_XSOu5LcBf_sglUHzsZ5lK-BmQmflIQ?e=FS7GZ4)
-
-
-
-## RoadMap
-
-Sprint 1:
-We aim to finish the minimum viable product.
-
-Sprint 2:
-We aim to finish the primary functionalities.
-
-Sprint 3:
-We aim to polish existing functionalities and/or complete more complex functionalities.
 
 
 ## Purpose and Benefits
@@ -86,15 +64,4 @@ We aim to polish existing functionalities and/or complete more complex functiona
 1. Can be used as a toy or game for entertainment and improvement of hand-eye coordination. 
 2. Can be used as a tool to scope out hazardous enviornments.
 
-## Team Information
-
-David - gusschdae@student.gu.se
-
-Piotr - gusostrpi@student.gu.se
-
-Tanya - gusbenta@student.gu.se
-
-Lihn - guslinhph@student.gu.se
-
-Mais - gusjoubma@student.gu.se
 
