@@ -1,8 +1,7 @@
 # Hand-gesture controlled mini-car
 -------------------------
 
-This is the repo for Group 7s Project, where we will make a car that is controlled using a hand-held device which recognizes hand gestures. This car aims to have a more seamless control system than a standard remote. Additionally, it will allow for full control over the car using only one hand. However, the option for a phone to act as a remote control is also available. Unfortunately, the hand-held device has been left out-of-scope and is not part of the final system, but remains mostly developed.
-
+A project to develope a  hand-gesture-controlled car with a mobile app interface
 ## Installation
 
 1. Setup the car by uploading the following file onto the arduino controlling the car: "Car/Car.ino". Flashing the file can be done using arduino IDE [IDE Download-And-Install guide](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE). Documentation to help with uploading the file after you have the IDE installed: [How to upload a sketch in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE).
