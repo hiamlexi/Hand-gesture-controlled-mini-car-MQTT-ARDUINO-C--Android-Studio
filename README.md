@@ -10,9 +10,11 @@ A project to develope a  hand-gesture-controlled car with a mobile app interface
 
 ## Video Demo
 
+### Control the car by a self-created mobile app and car detects collision
+
 The link to the video demo is [here](https://www.youtube.com/watch?v=LsxHzzjNhcY&ab_channel=Team7).
 
-# Other videos of the car's progression and testing can be found in [HERE](https://drive.google.com/drive/folders/1_2FeddrrEDnh4p-JbIEDVTgufPtViy9P?usp=sharing) 
+# Other videos of the car's progression and testing can be found in [HERE](https://drive.google.com/file/d/1bAKY2Shkt4XTwdzXonhrB6Md_Ur7gF41/view?usp=sharing)  or [HERE](https://drive.google.com/file/d/1bAKY2Shkt4XTwdzXonhrB6Md_Ur7gF41/view?usp=drive_link)
 
 ## Controls
 
